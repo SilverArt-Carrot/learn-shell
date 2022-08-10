@@ -1,0 +1,33 @@
+# 取消macOS翻盖开机
+sudo nvram AutoBoot=%00
+
+# 启动macOS翻盖开机
+sudo nvram AutoBoot=%03
+
+# xargs可以把前一个命令的返回值作为下一个命令的参数，mdfind只能在macOS上使用
+mdfind -name wodeddd | xargs rm -rf
+
+# 查看tcp端口情况
+netstat -ntpl
+# 查看udp端口情况
+netstat -nupl
+# 查看系统端口情况
+netstat -anp
+
+# 查看cpu信息
+lscpu
+
+# 查看系统详情信息
+uname -a
+
+# centos 查看系统版本
+cat /etc/redhat-release
+
+# 从本机向远程服务器传文件
+scp someCommand.txt root@43.142.176.104:/root/lqy
+
+# 查看目录大小
+du -sh lqy/
+
+# 查看本机硬盘空间
+df -h .
