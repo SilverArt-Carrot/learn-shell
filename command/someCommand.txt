@@ -22,6 +22,7 @@ uname -a
 
 # centos 查看系统版本
 cat /etc/redhat-release
+cat /etc/os-release
 
 # 从本机向远程服务器传文件
 scp someCommand.txt root@43.142.176.104:/root/lqy
