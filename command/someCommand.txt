@@ -21,6 +21,9 @@ cat /proc/cpuinfo
 # 查看系统详情信息
 uname -a
 
+# 查询主机名,相当于uname -n
+hostname
+
 # centos 查看系统版本
 cat /etc/redhat-release
 cat /etc/os-release
