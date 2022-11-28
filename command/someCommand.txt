@@ -16,6 +16,7 @@ netstat -anp
 
 # 查看cpu信息
 lscpu
+cat /proc/cpuinfo
 
 # 查看系统详情信息
 uname -a
@@ -32,3 +33,7 @@ du -sh lqy/
 
 # 查看本机硬盘空间
 df -h .
+
+# 查看内存
+free
+cat /proc/meminfo
