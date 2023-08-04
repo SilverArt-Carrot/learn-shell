@@ -1,0 +1,14 @@
+# 大致的看出计算机的整体负载情况，load average后的数字分别表示计算机在1min、5min、15min内的平均负载。
+uptime
+
+vmstat
+
+top
+
+# pidstat用于打印各个进程对CPU的占用情况
+pidstat
+
+# mpstat命令指令主要用于多CPU环境下，它显示各个可用CPU的状态信息
+mpstat
+
+iostat
