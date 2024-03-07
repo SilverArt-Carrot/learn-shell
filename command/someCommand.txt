@@ -43,3 +43,6 @@ cat /proc/meminfo
 
 # 通过访问 ifconfig.me 查看公网IP
 curl ifconfig.me
+
+# 查看Linux设备配置
+curl -sL yabs.sh | bash
